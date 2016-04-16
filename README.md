@@ -1,6 +1,12 @@
 # weixin
+1.测试公众号请从gongzhonghao.png扫码获得
+2.测试的url为：https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe2916810a9a30626&redirect_uri=http://115.159.160.143/oauth&response_type=code&scope=snsapi_userinfo&state=2#wechat_redirect
+3.这是一个django app，因为不涉及数据库，所以只上传了views.py
+<h3>说明:</h3><br>
+<hr>
 1.此微信公众号是一个测试号，所以只有关注才能进行授权<br>
 2.该测试号只会回复一个链接“点我授权”<br>
 3.点击连接后即为授权，由于是用户已经关注公众号，所以是静默授权，不会弹出授权界面<br>
   <h6>对于已关注公众号的用户，如果用户从公众号的会话或者自定义菜单进入本公众号的网页授权页，即使是scope为snsapi_userinfo，也是静默授权，用户无感知。--微信开发者文档</h6><br>
 4.弹出的网页即为用户信息
+<hr>
