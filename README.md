@@ -10,9 +10,9 @@
   <h6>对于已关注公众号的用户，如果用户从公众号的会话或者自定义菜单进入本公众号的网页授权页，即使是scope为snsapi_userinfo，也是静默授权，用户无感知。--微信开发者文档</h6><br>
 4.弹出的网页即为用户信息
 <hr>
-思路：
-根据微信开发者文档：
-1、引导用户进入授权页面同意授权，获取code
-2、通过code换取网页授权access_token（与基础支持中的access_token不同）
-3、如果需要，开发者可以刷新网页授权access_token，避免过期
-4、通过网页授权access_token和openid获取用户基本信息（支持UnionID机制）
+思路：<br>
+根据微信开发者文档：<br>
+1、引导用户进入授权页面同意授权，获取code<br>
+2、通过code换取网页授权access_token（与基础支持中的access_token不同）<br>
+3、如果需要，开发者可以刷新网页授权access_token，避免过期<br>
+4、通过网页授权access_token和openid获取用户基本信息（支持UnionID机制）<br>
