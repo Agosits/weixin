@@ -1,6 +1,7 @@
 # weixin
 1.测试公众号请从gongzhonghao.png扫码获得<br>
 2.测试的url为：https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe2916810a9a30626&redirect_uri=http://115.159.160.143/oauth&response_type=code&scope=snsapi_userinfo&state=2#wechat_redirect<br>
+请用微信手机客户端访问这个url
 3.这是一个django app，因为不涉及数据库，所以只上传了views.py<br>
 <hr>
 <h3>说明:</h3><br>
